@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FavoriteNumber({min = 1, max = 9}) {
+function FavoriteNumber({ min = 1, max = 9 }) {
   const [number, setNumber] = React.useState(0)
   const [numberEntered, setNumberEntered] = React.useState(false)
   function handleChange(event) {
@@ -22,4 +22,4 @@ function FavoriteNumber({min = 1, max = 9}) {
   )
 }
 
-export {FavoriteNumber}
+export { FavoriteNumber }
